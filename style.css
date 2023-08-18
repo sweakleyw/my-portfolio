@@ -78,7 +78,8 @@ img {
 
 .headpr {
   color: #fff;
-  margin: 5px;
+  margin-left: -50px;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
@@ -107,12 +108,12 @@ img {
 }
 
 .card {
-  margin: 15px 5px;
-  background-color: #ffffff6c;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 25px;
   max-width: 600px;
-  transition: all 0.4s ease 0s;
+  min-width: 440px;
+  background-color: #ffffff6c;
+  border-radius: 5px;
+  margin: 5px;
 }
 
 /* .services-card {
@@ -308,5 +309,6 @@ img {
 
   .headpr {
     margin-top: 0px;
+    margin-left: 0px;
   }
 }
