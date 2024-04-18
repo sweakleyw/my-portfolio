@@ -13,6 +13,7 @@ body {
   flex-direction: column;
   background: url(imgs/background.png) no-repeat center center/ cover;
   background-attachment: fixed;
+  /* background-color: #222831; */
 }
 
 img {
@@ -44,7 +45,7 @@ img {
 
 .social > a:hover {
   color: #a80192 !important;
-  font-size: 30px;
+  /* font-size: 30px; */
   border-color: #ffffff !important;
   transition: all 0.4s ease 0s;
 }
@@ -197,7 +198,7 @@ img {
 
 .buttons > a:hover {
   color: #a80192 !important;
-  font-size: 20px;
+  /* font-size: 20px; */
   background: #ffffff;
   border-color: #ffffff !important;
   transition: all 0.4s ease 0s;
@@ -230,7 +231,7 @@ img {
 
 .nav-btns > a:hover {
   color: #a80192 !important;
-  font-size: 20px;
+  /* font-size: 20px; */
   background: #ffffff;
   border-color: #ffffff !important;
   transition: all 0.4s ease 0s;
@@ -248,9 +249,11 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* background-color: #eeeeee; */
 }
 .sidebar-grid > .left-sidebar {
   grid-area: left-sidebar;
+  /* background-color: #00adb5; */
 }
 .sidebar-grid > .footer {
   grid-area: footer;
