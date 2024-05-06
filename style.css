@@ -7,17 +7,28 @@
 }
 
 body {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
-  background: url(imgs/background.png) no-repeat center center/ cover;
+  /* background: url(imgs/background.png) no-repeat center center/ cover;
+  background-attachment: fixed; */
+  background: linear-gradient(
+    135deg,
+    hsla(188, 69%, 52%, 1) 0%,
+    hsla(314, 52%, 46%, 1) 100%
+  );
   background-attachment: fixed;
-  /* background-color: #222831; */
 }
 
 img {
   width: 250px;
+}
+
+#nav-logo {
+  width: 350px;
+  margin-bottom: -70px;
+  margin-top: -70px;
 }
 
 #nav {
@@ -77,6 +88,13 @@ img {
   font-weight: 600;
 }
 
+.head-sub {
+  margin: 15px 5px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
 .headpr {
   color: #fff;
   margin-left: -50px;
@@ -92,6 +110,11 @@ img {
   align-items: center;
   margin-top: 20px;
   gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 /* #services {
@@ -117,6 +140,40 @@ img {
   margin: 5px;
 }
 
+/* #serv-sec {
+  display: flex;
+  flex-direction: column;
+}
+
+.serv-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#services {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 15px;
+  gap: 20px;
+}
+
+.serv-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.name {
+  text-align: center;
+  margin-top: 10px;
+} */
+
+li {
+  list-style: none;
+}
+
 /* .services-card {
   margin: 15px 5px;
   background-color: #ffffff6c;
@@ -126,6 +183,56 @@ img {
   min-height: 325px;
   transition: all 0.4s ease 0s;
 } */
+
+#illustrations-pg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 5px;
+  background-color: #ffffff6c;
+  border-radius: 5px;
+  margin-right: 30px;
+}
+
+#card-img {
+  width: 100%;
+  height: 300px;
+  flex-grow: 1;
+  object-fit: scale-down;
+  margin-bottom: 5px;
+}
+
+#ill-img {
+  width: 100%;
+  flex-grow: 1;
+  object-fit: scale-down;
+  margin-bottom: 5px;
+}
+
+#singlepg-img {
+  width: 100%;
+  flex-grow: 1;
+  object-fit: scale-down;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.single-card {
+  padding: 25px;
+  max-width: 600px;
+  background-color: #ffffff6c;
+  border-radius: 5px;
+  margin: 5px;
+  transition: all 0.4s ease 0s;
+}
+
+.card-ill {
+  padding: 15px;
+  max-width: 600px;
+  margin: 5px;
+}
 
 .title {
   margin-bottom: 5px;
@@ -139,7 +246,7 @@ img {
   margin: 15px 5px;
   font-size: 18px;
   color: #fff;
-  line-height: 1.5rem;
+  line-height: 2rem;
   font-family: "Source Sans 3", sans-serif;
 }
 
@@ -277,6 +384,14 @@ img {
   }
 
   .card {
+    flex: 1 0 500px;
+  }
+
+  .card-ill {
+    flex: 1 0 500px;
+  }
+
+  #td-edit {
     flex: 1 0 500px;
   }
 
