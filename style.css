@@ -86,10 +86,11 @@ img {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
+  line-height: 2.5rem;
 }
 
 .head-sub {
-  margin: 15px 5px;
+  padding-top: 10px;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -245,7 +246,7 @@ li {
   margin: 15px 5px;
   font-size: 18px;
   color: #fff;
-  line-height: 2rem;
+  line-height: 1.75rem;
   font-family: "Source Sans 3", sans-serif;
 }
 
