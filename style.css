@@ -222,6 +222,12 @@ li {
   margin-top: 10px;
 }
 
+#link {
+  text-decoration: underline;
+  color: #6212be;
+  font-weight: 600;
+}
+
 .single-card {
   padding: 25px;
   max-width: 600px;
